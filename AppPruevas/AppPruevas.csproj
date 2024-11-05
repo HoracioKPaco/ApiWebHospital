@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiWebHospital.Data\ApiWebHospital.Data.csproj" />
+    <ProjectReference Include="..\ApiWebHospital.ModelDTO\ApiWebHospital.ModelDTO.csproj" />
+    <ProjectReference Include="..\ApiWebHospital.Model\ApiWebHospital.Model.csproj" />
+    <ProjectReference Include="..\ApiWebHospital.Service\ApiWebHospital.Service.csproj" />
+    <ProjectReference Include="..\ApiWebHospital.SeviceImplements\ApiWebHospital.SeviceImplement.csproj" />
+  </ItemGroup>
+
+</Project>
